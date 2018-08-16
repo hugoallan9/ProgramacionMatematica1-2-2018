@@ -15,3 +15,5 @@ x2 = -b / 2 -  (b**2 - 4 * a * c)**(0.5) / 2
 print(x1,x2)
 print( "Una de las raíces es ", x1 )
 print("La otra raíz es :", x2 )
+
+
