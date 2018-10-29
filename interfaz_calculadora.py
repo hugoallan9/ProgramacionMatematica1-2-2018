@@ -13,6 +13,13 @@ from aritmetica import Aritmetica
 import time
 
 class Ui_Form(object):
+
+    def __init__(self):
+        #INiciar los discos
+        super(Ui_Form, self).__init__()
+
+
+
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(532, 472)
@@ -118,7 +125,7 @@ class Ui_Form(object):
         print(result)
         self.editor.setPlainText(str(result))
         self.label_ultimaop.setText( "Última resultado: " + str(result) )
-        self.boton_calcular.setEnabled(True)
+        #self.boton_calcular.setEnabled(True)
 
 
     def imprimir_simbolo(self, simbolo):
